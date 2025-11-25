@@ -6,7 +6,7 @@ Repository for SOC-2 compliance scripts
 ### Security Compliance Check
 
 ```bash
-wget https://raw.githubusercontent.com/VeylanAI/soc2-compliance-scripts/refs/heads/main/mac/security-compliance-check.sh
+curl -O https://raw.githubusercontent.com/VeylanAI/soc2-compliance-scripts/refs/heads/main/mac/security-compliance-check.sh
 chmod +x security-compliance-check.sh
 ./security-compliance-check.sh
 rm security-compliance-check.sh
